@@ -17,7 +17,7 @@ app.get('/', function (req, res) {
       `)
 
     $('.thing').each((i, e) => {
-      π('body').append(e);
+      π('body').append(e)
     })
 
     res.send(π.html())
